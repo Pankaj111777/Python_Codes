@@ -1,5 +1,5 @@
 class Employee:
-    company = "Persistent"
+    company = "Persistent System"
     
     def getSalary(self, signature):
         print(f"Salary for this employee Working in {self.company} is {self.salary}\n {signature}")
@@ -7,9 +7,9 @@ class Employee:
         
 
     def greet(self):
-        print("Good Morning, Sir")
+        print("Good Morning, Prajwal Sir")
         
 harry = Employee()
-harry.salary = 1000000
+harry.salary = 35241836354
 harry.getSalary("Thanks!") 
 harry.greet()       
